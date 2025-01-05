@@ -14,5 +14,5 @@
   "semanticValidation": true,
   "syntaxValidation": true,
   "theme": "Dawn",
-  "overwriteBg": false
+  "overwriteBg": true
 }

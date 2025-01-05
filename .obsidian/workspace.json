@@ -6,7 +6,7 @@
       {
         "id": "0dc94fb15956586e",
         "type": "tabs",
-        "dimension": 52.185089974293064,
+        "dimension": 39.7814910025707,
         "children": [
           {
             "id": "94cc2ecda69aed47",
@@ -31,13 +31,26 @@
               "icon": "lucide-file",
               "title": "alocação de memória em c at DuckDuckGo"
             }
+          },
+          {
+            "id": "3fdca46d42b21299",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://stackoverflow.com/questions/514118/how-does-duffs-device-work"
+              },
+              "icon": "lucide-file",
+              "title": "c - How does Duff's device work? - Stack Overflow"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "b0680b8cdc115e72",
         "type": "tabs",
-        "dimension": 47.81491002570694,
+        "dimension": 60.21850899742931,
         "children": [
           {
             "id": "269b18af9feb54c4",
@@ -45,15 +58,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "memory allocation/Memory Allocation.md",
+                "file": "memory/Memory Allocation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Memory Allocation"
             }
+          },
+          {
+            "id": "20ad37d958f7eab3",
+            "type": "leaf",
+            "state": {
+              "type": "code-editor",
+              "state": {
+                "file": "memory/duff.c"
+              },
+              "icon": "lucide-file",
+              "title": "duff.c"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,23 +219,23 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "94cc2ecda69aed47",
+  "active": "20ad37d958f7eab3",
   "lastOpenFiles": [
+    "memory/Memory Allocation.md",
+    "memory/duff.c",
+    "memory/duff",
+    "duff.c",
+    "duff.c.ts.ts",
+    "bitwise/Bitwise e Bit Flags.md",
+    "bitwise/bit_flags.c",
     "books/mml-book.pdf",
     "books/introduction-to-algorithms-and-machine-learning.pdf",
     "books",
-    "memory allocation/Memory Allocation.md",
-    "bitwise/Bitwise e Bit Flags.md",
-    "memory allocation",
+    "memory",
     "bitwise/chmod.webp",
     "bitwise/chmod.png",
-    "bitwise/bit_flags.c",
     "README.md",
     "programming",
-    "bitwise/bit_flags",
-    "bitwise/a.out",
-    "bit_flags.c",
-    "bitwise",
     "Bit Flags.md"
   ]
 }
