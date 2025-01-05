@@ -1,3 +1,5 @@
+## O que são operadores Bitwise e para que eles servem?
+
 Imagine que você está criando um jogo que possui um sistema de items e que, dependendo do item que você possui, uma ação acontece dentro do jogo. Qual seria a melhor forma para armazenar a informação se você possui um item ou não?
 
 A primeira coisa que vem na cabeça é um `boolean` para cada item, né? Mas e se tiver 8 items, por exemplo? Você vai ter inúmeras variáveis, e trabalhar com elas vai se tornar uma tarefa chata.
@@ -16,11 +18,11 @@ No nosso exemplo do jogo dado lá encima, a gente poderia usar apenas um único 
 
 Exemplos estão no arquivo `bit_flags.c`, recomendo analisar o código antes de continuar.
 
-# chmod - exemplo real
+## chmod - exemplo real
 
 Para os não tão chegados, o comando chmod é uma ferramenta que permite alterar as permissões de arquivos e diretórios em sistemas operacionais do tipo Unix, como o Linux. A abreviação chmod significa "change mode", ou seja, "alterar modo"
 
-O comando chmod então seria uma versão 1000x mais complexa e de uso real do que o nosso pobre arquivo `bit_flags.c` mas, assim como o nosso código, ele também se utiliza de operadores bit a bit na sua implementação.
+O comando chmod então seria uma versão 100x mais complexa e de uso real do que o nosso pobre arquivo `bit_flags.c` mas, assim como o nosso código, ele também se utiliza de operadores bit a bit na sua implementação.
 
 O comando chmod trabalha com três categorias: `owner`, `group` e `public` e você consegue definir a permissão de determinada categoria por meio de um número de 3 bits entre 0 (000) e 7 (111). Cada bit determina uma permissão, sendo elas:
 
@@ -28,7 +30,7 @@ O comando chmod trabalha com três categorias: `owner`, `group` e `public` e voc
 `w` = Possui permissão de escrever no arquivo
 `x` = Possui permissão de executar o arquivo
 
-![[Pasted image 20250104164649.webp|432]]
+<img src="chmod.png" alt="exemplo chmod" style="width: 100%; border: none;"/>
 
 Exemplo:
 ```

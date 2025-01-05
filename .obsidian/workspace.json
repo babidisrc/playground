@@ -170,18 +170,22 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "269b18af9feb54c4",
+  "active": "d694ca3c7629bfad",
   "lastOpenFiles": [
+    "bitwise/chmod.webp",
+    "bitwise/chmod.png",
+    "bitwise/Bitwise e Bit Flags.md",
+    "bitwise/bit_flags.c",
+    "README.md",
+    "books/mml-book.pdf",
+    "books/introduction-to-algorithms-and-machine-learning.pdf",
+    "books",
+    "programming",
     "bitwise/bit_flags",
     "bitwise/a.out",
-    "bitwise/bit_flags.c",
-    "bitwise/Bitwise e Bit Flags.md",
-    "attachments/Pasted image 20250104164649.webp",
     "bit_flags.c",
     "bitwise",
-    "README.md",
     "Bit Flags.md",
-    "a.out",
-    "attachments"
+    "a.out"
   ]
 }
