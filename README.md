@@ -2,7 +2,7 @@ Anotações sobre a linguagem C (e C++, se eu estiver no clima) com foco em DSA 
 
 # Principais Referências
 
-https://noic.com.br/olimpiadas/informatica/
-https://usaco.guide/
-https://cp-algorithms.com/
-https://neetcode.io/roadmap
+- https://noic.com.br/olimpiadas/informatica/
+- https://usaco.guide/
+- https://cp-algorithms.com/
+- https://neetcode.io/roadmap
