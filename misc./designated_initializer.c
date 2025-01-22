@@ -34,6 +34,7 @@ int main() {
     }
 
     // printa em extenso as operações (+, -)
+    // se o usuário colocar como input "5 + 2" -> "5 mais 2"
     for (int i = 0; i < len; i++) {
         if (string[i] == '+' || string[i] == '-') {
             printf("%s", lookup[(int)string[i]]);

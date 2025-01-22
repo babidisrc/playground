@@ -16,7 +16,7 @@ Valor:      8    0     2    0
 
 No nosso exemplo do jogo dado lá encima, a gente poderia usar apenas um único inteiro de 8 bits, com cada bit armazenando um estado (1 quando se tem o item, 0 quando não tem). Em seguida, poderíamos usar os operadores &, | e ^ para realizar operações bitwise (bit a bit): “e”, “inclusivo ou” e “exclusivo ou”.
 
-Exemplos estão no arquivo `bit_flags.c`, recomendo analisar o código antes de continuar.
+Exemplos estão no arquivo `bit_flags.c` dentro da pasta `bit flags`, recomendo analisar o código antes de continuar.
 
 ## chmod - exemplo real
 
@@ -38,6 +38,6 @@ chmod 755 bit_flags.c
 ```
 O 7 é da categoria `owner` e é igual a 111 em bits, ou seja, `owner` possui todas as permissões para esse arquivo. Ele pode ler, escrever e executar.
 
-O 5 é da categoria `group` e é igual a 101 em bits, ou seja `group` consegue ler e executar o arquivo, MAS não consegue escrever nele.
+O 5 é da categoria `group` e é igual a 101 em bits, ou seja `group` consegue ler e executar o arquivo, mas NÃO consegue escrever nele.
 
-O 5 é da categoria `public` e é igual a 101 em bits, ou seja `public` consegue ler e executar o arquivo, MAS não consegue escrever nele, assim como o `group`.
+O 5 é da categoria `public` e é igual a 101 em bits, ou seja `public` consegue ler e executar o arquivo, mas NÃO consegue escrever nele, assim como o `group`.
