@@ -7,3 +7,4 @@ Anotações sobre a linguagem C (e C++, se eu estiver no clima) com certo foco e
 - https://cp-algorithms.com/
 - https://neetcode.io/roadmap
 - The Algorithm Design Manual - (SKIENA, Steven S.)
+- A Programmer's Introduction to Mathematics - (KUN, Jeremy K.)

@@ -2,17 +2,17 @@
 
 // definição da struct com bit fields
 struct file_permissions {
-    unsigned int owner_read : 1;    // 1 bit para leitura do proprietário
-    unsigned int owner_write : 1;   // 1 bit para escrita do proprietário
-    unsigned int owner_execute : 1; // 1 bit para execução do proprietário
+    unsigned char owner_read : 1;    // 1 bit para leitura do proprietário
+    unsigned char owner_write : 1;   // 1 bit para escrita do proprietário
+    unsigned char owner_execute : 1; // 1 bit para execução do proprietário
 
-    unsigned int group_read : 1;    // 1 bit para leitura do grupo
-    unsigned int group_write : 1;   // 1 bit para escrita do grupo
-    unsigned int group_execute : 1; // 1 bit para execução do grupo
+    unsigned char group_read : 1;    // 1 bit para leitura do grupo
+    unsigned char group_write : 1;   // 1 bit para escrita do grupo
+    unsigned char group_execute : 1; // 1 bit para execução do grupo
 
-    unsigned int others_read : 1;   // 1 bit para leitura de outros
-    unsigned int others_write : 1;  // 1 bit para escrita de outros
-    unsigned int others_execute : 1;// 1 bit para execução de outros
+    unsigned char others_read : 1;   // 1 bit para leitura de outros
+    unsigned char others_write : 1;  // 1 bit para escrita de outros
+    unsigned char others_execute : 1;// 1 bit para execução de outros
 };
 
 // função para exibir as permissões
